@@ -1,0 +1,21 @@
+from enum import Enum
+
+class NomesChaves(Enum):
+    DATA = 'Data de referência'
+    PROCESSO = 'N° do processo'
+    SEI = 'N° SEI'
+    ORGAO = 'Órgão'
+    ATUACAO = 'Unidade de atuação'
+    NOME_TITULAR = 'Nome do titular do órgão ou da chefia de gabinete'
+    REGISTRO_FUNCIONAL_TITULAR = 'Registro Funcional do titular do órgão ou da chefia de gabinete'
+    EMAIL_TITULAR = 'E-mail do titular do órgão ou da chefia de gabinete'
+    NOME_CHEFIA = 'Nome da chefia imediata'
+    REGISTRO_FUNCIONAL_CHEFIA = 'Registro Funcional da chefia imediata'
+    CARGO_CHEFIA = 'Cargo da chefia imediata'
+    EMAIL_CHEFIA = 'E-mail da chefia imediata'
+    VIGENCIA = 'Vigência prevista da alocação'
+    CONTEXTO_INSTITUCO = 'Contexto Institucional'
+    JUSTIFICATIA = 'Justificativa da solicitação'
+    PROJETOS_ATIVIDADES = 'Lista de projetos atividades'
+    PERFIL = 'Perfil profissional'
+    FUNCAO = 'Funções a serem desempenhadas'

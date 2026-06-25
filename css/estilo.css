@@ -1,0 +1,191 @@
+/* ======== RESET BÁSICO ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* ======== ESTILO GERAL ======== */
+body {
+    background-color: #f7f9fb;
+    color: #333;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+/* ======== CADA SEÇÃO DE TABELA ======== */
+.section-tabela {
+    width: 100%;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    display: grid;
+    grid-template-areas:
+        "cinco"
+}
+
+/* ======== CABEÇALHO ======== */
+.cabecalho-linha {
+    background-color: #155f9b;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-campo {
+    text-align: center;
+}
+
+.cabecalho-nome {
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+/* ======== CORPO DA TABELA ======== */
+.corpo-tabela {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* ======== LINHAS ======== */
+.corpo-tabela-linha {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.3s ease;
+}
+
+.corpo-tabela-linha:last-child {
+    border-bottom: none;
+}
+
+.corpo-tabela-linha:hover {
+    background-color: #f0f7ff;
+}
+
+/* ======== CAMPOS ======== */
+.corpo-tabela-primeiro-campo {
+    flex: 1;
+    font-weight: 600;
+    color: #155f9b;
+}
+
+.corpo-tabela-segundo-campo {
+    flex: 2;
+    text-align: left;
+    word-break: break-word;
+}
+
+/* ======== LINK SEI ======== */
+.link-sei {
+    color: #0494c7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-sei:hover {
+    text-decoration: underline;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 600px) {
+    .corpo-tabela-linha {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .corpo-tabela-primeiro-campo {
+        color: #155f9b;
+        margin-bottom: 0.3rem;
+    }
+
+    .corpo-tabela-segundo-campo {
+        padding-left: 0.5rem;
+    }
+}
+
+/*=====campos=====*/
+
+.corpo-tabela-linha.Data-de-referência{
+
+}
+
+.corpo-tabela-linha.N°-do-processo{
+
+}
+
+.corpo-tabela-linha.N°-SEI{
+
+}
+
+.corpo-tabela-linha.Órgão{
+
+}
+
+.corpo-tabela-linha.Unidade-de-atuação{
+
+}
+
+.corpo-tabela-linha.Nome-do-titular-do-órgão-ou-da-chefia-de-gabinete{
+
+}
+
+.corpo-tabela-linha.Registro-Funcional-do-titular-do-órgão-ou-da-chefia-de-gabinete{
+
+}
+
+.corpo-tabela-linha.E-mail-do-titular-do-órgão-ou-da-chefia-de-gabinete{
+
+}
+
+.corpo-tabela-linha.Nome-da-chefia-imediata{
+
+}
+
+.corpo-tabela-linha.Registro-Funcional-da-chefia-imediata{
+
+}
+
+.corpo-tabela-linha.Cargo-da-chefia-imediata{
+
+}
+
+.corpo-tabela-linha.E-mail-da-chefia-imediata{
+
+}
+
+.corpo-tabela-linha.Vigência-prevista-da-alocação{
+
+}
+
+.corpo-tabela-linha.Contexto-Institucional{
+
+}
+
+.corpo-tabela-linha.Justificativa-da-solicitação{
+
+}
+
+.corpo-tabela-linha.Lista-de-projeto(s)-e/ou-atividade(s)-previstas-para-o-APDO-TIC{
+
+}
+
+.corpo-tabela-linha.Perfil(is)-profissional(is)-necessário(s){
+
+}
+
+.corpo-tabela-linha.Funções-a-serem-desempenhadas{
+    
+}
