@@ -1,6 +1,6 @@
 # Divulgação PAI
 
-Sistema automatizado de extração, processamento e geração de páginas HTML a partir de arquivos PDF contendo informações sobre projetos e atividades (PAI - Programa de Ações Integradas). O projeto converte dados extraídos de PDFs em estruturas JSON organizadas e as transforma em páginas HTML formatadas e interativas.
+Sistema automatizado de extração, processamento e geração de páginas HTML a partir de arquivos PDF contendo informações sobre projetos e atividades (PAI - Programa de Ações Integradas). O projeto converte dados extraídos de PDFs em estruturas JSON organizadas e as transforma em páginas HTML.
 
 ---
 
